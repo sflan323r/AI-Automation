@@ -1,0 +1,8 @@
+customer = input("Customer name: ")
+date = input("Date: ")
+time = input("Time: ")
+
+print("\nAppointment Reminder")
+print(f"\nHello {customer}")
+print(f"\nThis is a reminder that you have an appointment on {date} at {time}.")
+print("\nWe look forward to seeing you!")
